@@ -14,9 +14,9 @@ class EnhancedPDFProcessor:
         self.heading_indicators = {
             'font_keywords': ['bold', 'medium', 'black', 'heavy', 'demi'],
             'structural_patterns': {
-                'H1': [r'^\d+\.\s+[A-Z]', r'^[A-Z][A-Z\s]{2,}$', r'^Chapter\s+\d+', r'^Part\s+[A-Z\d]+'],
-                'H2': [r'^\d+\.\d+\s+[A-Z]', r'^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*$'],
-                'H3': [r'^\d+\.\d+\.\d+\s+', r'^[a-z]+(?:\s+[a-z]+)*:?$']
+                'H1': [r'\d+\.\s+[A-Z]', r'^[A-Z][A-Z\s]{2,}$', r'^Chapter\s+\d+', r'^Part\s+[A-Z\d]+'],
+                'H2': [r'\d+\.\d+\s+[A-Z]', r'^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*$'],
+                'H3': [r'\d+\.\d+\.\d+\s+', r'^[a-z]+(?:\s+[a-z]+)*:?$']
             }
         }
         self.multilingual_patterns = {
@@ -76,7 +76,7 @@ class EnhancedPDFProcessor:
     def extract_title(self, doc) -> Tuple[str, str]:
         candidates = self.extract_title_candidates(doc)
         if not candidates:
-            return "Untitled Document", ""
+            return "", ""
         best_title = candidates[0][0]
         if len(best_title.split()) < 2:
             for title, _, _ in candidates[1:4]:
@@ -170,7 +170,10 @@ class EnhancedPDFProcessor:
 
     def extract_outline(self, doc, exclude_text: str) -> List[Dict]:
         outline, seen = [], set()
-        for page_num, page in enumerate(doc, start=1):
+        for page_num, page in enumerate(doc):
+            if page_num == 0 and not self._flyer_mode:
+                continue  # Skip page 0 for normal documents
+
             stats = self.analyze_page_statistics(page)
             blocks = page.get_text("dict")["blocks"]
             height = page.rect.height
@@ -189,6 +192,7 @@ class EnhancedPDFProcessor:
                     if level:
                         outline.append({"level": level, "text": text, "page": page_num})
                         seen.add(text)
+
         return self.post_process_outline(outline)
 
     def post_process_outline(self, outline: List[Dict]) -> List[Dict]:
