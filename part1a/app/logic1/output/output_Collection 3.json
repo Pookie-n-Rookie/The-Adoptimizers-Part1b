@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-26T17:24:03.427264"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "section_title": "Hummus",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "section_title": "Escalivada",
+      "importance_rank": 2,
+      "page_number": 6
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "section_title": "Muhammara",
+      "importance_rank": 3,
+      "page_number": 11
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Baba Ganoush",
+      "importance_rank": 4,
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Fruit and Nut Bars",
+      "importance_rank": 5,
+      "page_number": 14
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "In a food processor, combine dates, mixed nuts, dried fruit, and honey.",
+      "page_number": 14
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "molasses, cumin, and salt in a food processor until smooth.",
+      "page_number": 11
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "o Prepare each side dish separately.",
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "refined_text": "Place duck on a roasting rack and roast for 1 hour and 30 minutes until skin is crispy.",
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Layer with 3 lasagna noodles, 1/3 of the ricotta mixture, 1/3 of the meat sauce, and 1/3",
+      "page_number": 4
+    }
+  ]
+}
