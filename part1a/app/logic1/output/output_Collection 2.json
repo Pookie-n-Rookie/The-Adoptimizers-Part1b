@@ -19,65 +19,65 @@
     ],
     "persona": "HR professional",
     "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
-    "processing_timestamp": "2025-07-26T17:23:55.762818"
+    "processing_timestamp": "2025-07-27T21:13:37.041836"
   },
   "extracted_sections": [
     {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "section_title": "What’s the best way to create a PDF?",
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Is the form fillable?",
       "importance_rank": 1,
-      "page_number": 1
+      "page_number": 7
     },
     {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "section_title": "Create a blank PDF",
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Change flat forms to fillable (Acrobat Pro)",
       "importance_rank": 2,
-      "page_number": 10
+      "page_number": 11
     },
     {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "section_title": "PDF creation methods by file type",
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Fill in PDF Forms",
       "importance_rank": 3,
-      "page_number": 1
+      "page_number": 7
     },
     {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "section_title": "Convert clipboard content to PDF",
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "section_title": "Compliance Standard",
       "importance_rank": 4,
-      "page_number": 9
+      "page_number": 7
     },
     {
       "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "section_title": "Excel files to PDF",
+      "section_title": "Balance PDF file size and quality",
       "importance_rank": 5,
-      "page_number": 21
+      "page_number": 4
     }
   ],
   "subsection_analysis": [
     {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "refined_text": "Select File > Share > Create PDF and share link > Create PDF and Share link .",
-      "page_number": 14
-    },
-    {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "refined_text": "In Acrobat, choose Create > Clipboard > Create , or choose All tools > Create a",
-      "page_number": 9
-    },
-    {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "refined_text": "On the le Ō rail, select Blank page , and then select Create .",
-      "page_number": 10
-    },
-    {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "refined_text": "(Office 2010) From the Acrobat ribbon, select Create PDF, Create And Attach to Email,",
-      "page_number": 21
-    },
-    {
-      "document": "Learn Acrobat - Create and Convert_1.pdf",
-      "refined_text": "On the le Ō rail, select Mul Ɵple files > Create mul Ɵple",
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "To create an interactive form, use the Prepare Forms tool. See Create a form from an existing document . You can change a flat form to a fillable form by either using the Prepare Form tool or enabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool to fill in flat forms. To create an interactive form, use the Prepare Forms tool. See Create a form from an existing document . To enable the Fill & Sign tools, from the hamburger menu ( File menu in macOS)",
       "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "choose Save As Other > Acrobat Reader Extended PDF > Enable More Tools (includes You can change a flat form to a fillable form by either using the Prepare Form tool or enabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool to fill in flat forms. To create an interactive form, use the Prepare Forms tool. See Create a form from an existing document . To enable the Fill & Sign tools, from the hamburger menu ( File menu in macOS)",
+      "page_number": 11
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Content Security Library : Extensive documentation on Adobe certificate signature administration. Managing Digital IDs : Help pages for digital ID management. A certificate-based signature , like a conventional handwritten signature, identifies the person signing a document. Unlike a handwritten signature, a certificate-based signature is difficult to forge because it contains encrypted information that is unique to the signer. It can be easily verified and informs recipients whether the document was modified after the signer initially signed it. To sign a document with a certificate-based signature, you must obtain a digital ID or create a",
+      "page_number": 20
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "administration. Managing Digital IDs : Help pages for digital ID management. A certificate-based signature , like a conventional handwritten signature, identifies the person signing a document. Unlike a handwritten signature, a certificate-based signature is difficult to forge because it contains encrypted information that is unique to the signer. It can be easily verified and informs recipients whether the document was modified after the signer initially signed it. To sign a document with a certificate-based signature, you must obtain a digital ID or create a",
+      "page_number": 20
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Not all forms are fillable. Sometimes form creators don’t convert their PDFs to interactive fillable forms. Or, they intentionally design a form that you can fill in only by hand or with the Fill & Sign tool. These non-interactive forms are called flat forms. Not all forms are fillable. Sometimes form creators don’t convert their PDFs to interactive fillable forms. Or, they intentionally design a form that you can fill in only by hand or with the Fill & Sign tool. These non-interactive forms are called flat forms.",
+      "page_number": 7
     }
   ]
 }
