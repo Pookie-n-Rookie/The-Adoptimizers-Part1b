@@ -6,7 +6,7 @@ This repository contains the solution for the Adobe India Hackathon Round 1B by 
 
 **Round 1B Focus**: Analyzes document collections to extract and rank the most relevant sections based on specific persona requirements and job-to-be-done tasks, utilizing the structured outline extraction from Round 1A as foundation.
 
-Round 1A GitHub Repo : https://github.com/rustyBot31/AdobeIndiaHackathonRound1A---The-Adoptimizers 
+Round 1A GitHub Repo : https://github.com/Pookie-n-Rookie/The-Adoptimizers-Part1a
 
 ## Architecture
 
