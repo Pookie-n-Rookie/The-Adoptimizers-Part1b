@@ -159,7 +159,7 @@ The container automatically:
 - `post_process_outline()`: Duplicate removal using `text_similarity()` function
 - Multi-language support via `multilingual_patterns` for Japanese, Chinese, Arabic, Cyrillic
 
-### Round 1B Extension (`main1b.py`)
+### Round 1B Extension (`main.py`)
 - `GenericRelevanceCalculator`: Standalone relevance scoring with `extract_query_keywords()` and `calculate_semantic_similarity()`
 - `GenericPersonaPDFProcessor`: Extends Round 1A with `extract_section_content_smart()` and `calculate_comprehensive_relevance()`
 - `extract_quality_subsections()`: Content segmentation with minimum length requirements
