@@ -20,6 +20,8 @@ import gzip
 from main1a import EnhancedPDFProcessor, OUTPUT_DIR
 
 # Download required NLTK data (do this once)
+
+nltk.data.path.append("./nltk_data")
 try:
     nltk.data.find('tokenizers/punkt')
     nltk.data.find('corpora/stopwords')
@@ -27,8 +29,8 @@ except LookupError:
     nltk.download('punkt')
     nltk.download('stopwords')
 
-INPUT_DIR = "../../input2"
-
+INPUT_DIR = "/app/input"
+OUTPUT_DIR = "/app/output"
 
 class GenericRelevanceCalculator:
     """Generic relevance calculator that works for any persona/task combination"""
@@ -606,10 +608,14 @@ def main():
             
             # Find input JSON and PDF directory
             input_json = None
-            pdf_dir = os.path.join(collection_dir, "PDFs")
+            pdf_dir = None
+            for f in os.listdir(collection_dir):
+                if os.path.isdir(os.path.join(collection_dir, f)):
+                    pdf_dir = os.path.join(collection_dir, f)
+                    break
             
             for f in os.listdir(collection_dir):
-                if f.endswith(".json"):
+                if f.endswith("input.json"):
                     input_json = os.path.join(collection_dir, f)
                     break
             

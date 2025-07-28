@@ -1,5 +1,5 @@
 # PDF parsing
-PyMuPDF==1.23.14
+PyMuPDF
 
 # Machine Learning and NLP
 scikit-learn
