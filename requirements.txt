@@ -1,0 +1,13 @@
+# PDF parsing
+PyMuPDF
+
+# Machine Learning and NLP
+scikit-learn
+numpy
+nltk
+
+# Optional: For better performance
+scipy
+
+# Optional: If you want to use joblib for caching (used internally by sklearn)
+joblib
