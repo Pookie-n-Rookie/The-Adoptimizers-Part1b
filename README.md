@@ -52,7 +52,7 @@ docker build --platform linux/amd64 -t round1b-solution:latest .
 
 ### Run Command
 ```bash
-docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none round1b-solution:latest
+docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" --network none round1b-solution:latest
 ```
 
 ## Input/Output Specification

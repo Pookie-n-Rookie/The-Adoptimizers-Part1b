@@ -3,7 +3,7 @@
 import os
 import json
 import re
-import fitz  # PyMuPDF
+import fitz  
 from typing import List, Dict, Optional, Tuple
 import unicodedata
 from datetime import datetime
