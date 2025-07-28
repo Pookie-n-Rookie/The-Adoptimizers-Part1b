@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains the solution for the Adobe India Hackathon Round 1B by Team "The Adoptimizers" from Jadavpur University, Kolkata, comprising of Swarnendu Banerjee (Team Lead), Sarbo Sarcar, and Swastik Bose. The solution builds upon the PDF outline extraction capabilities from Round 1A to provide intelligent, persona-driven document analysis.
+This repository contains the solution for the Adobe India Hackathon Round 1B. The solution builds upon the PDF outline extraction capabilities from Round 1A to provide intelligent, persona-driven document analysis.
 
 **Round 1B Focus**: Analyzes document collections to extract and rank the most relevant sections based on specific persona requirements and job-to-be-done tasks, utilizing the structured outline extraction from Round 1A as foundation.
 
@@ -190,3 +190,13 @@ Successfully tested across diverse scenarios:
 - **Business Analysis**: Financial reports, market research
 - **Educational Content**: Textbook analysis, study guide generation
 - **Multi-language Documents**: Various script systems and languages
+
+# 👥 Team
+*Team Name*: The Adoptimizers
+
+*Institution*: Jadavpur University, Kolkata
+
+*Team Members*:
+- Swarnendu Banerjee (Team Lead)
+- Sarbo Sarcar
+- Swastik Bose
