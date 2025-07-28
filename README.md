@@ -165,6 +165,10 @@ The container automatically:
 - `extract_quality_subsections()`: Content segmentation with minimum length requirements
 - Document collection processing with diversity optimization using `Counter` for document balance
 
+## Sample Output
+
+<img width="1481" height="822" alt="Image" src="https://github.com/user-attachments/assets/a889140a-466d-4f47-8a2e-eb1c07cd993e" />
+
 ## Key Algorithms
 
 1. **Dynamic Keyword Categorization**: Classifies extracted terms into action words, domain concepts, descriptors, and entities using linguistic pattern matching
