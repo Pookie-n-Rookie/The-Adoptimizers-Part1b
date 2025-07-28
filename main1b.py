@@ -1,3 +1,5 @@
+# main1b.py
+
 import os
 import json
 import re
@@ -15,7 +17,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import PorterStemmer
 import pickle
 import gzip
-from main import EnhancedPDFProcessor, OUTPUT_DIR
+from main1a import EnhancedPDFProcessor, OUTPUT_DIR
 
 # Download required NLTK data (do this once)
 try:
